@@ -8,3 +8,6 @@ Design a resilient Django 6 + psycopg3 + PGBouncer (transaction mode) strategy:
 4. Enforce short-lived transactions; audit code for long-running `atomic()` blocks and streaming queries.  
 5. Use historian.platform as host with 5432 for primary replica.
 6. Use historian.platform as host with 5433 for readonly replica.
+
+## API Analysis
+Speed up my API. Via Indexes and caching per row for table view. Create a plan to speed up this.
