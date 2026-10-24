@@ -4,6 +4,16 @@ These are review questions and adaptations of *Design for Developers*. Page refe
 
 Apply these criteria to proactively pursue visual excellence in every review while respecting the requested scope in [SKILL.md](../SKILL.md). Use existing tokens and components where they serve the result; evolve palette, typography, themes, layout, and component treatments when that improves the experience. Beauty, character, and emotional appeal are independent design goals. Neutrality, minimalism, low saturation, sparse decoration, and small changes have no automatic preference over expressive alternatives.
 
+## Art direction and visual character
+
+This section applies the user's creative priorities alongside the book-derived criteria below.
+
+Begin with the product's subject and the feeling the experience should evoke. Choose a recognizable visual direction, then make concrete decisions about the dominant composition, type character, color relationships, imagery, materials, and recurring motifs. Carry that direction through the whole page and its component states. A distinctive heading, image treatment, or spatial composition should belong to this product rather than look interchangeable with another app.
+
+Actively improve flat or generic screens. Explore expressive scale, varied section rhythms, custom illustration or imagery, atmospheric surfaces, layered depth, and carefully finished details. Choose a combination that creates a coherent scene. For an operational app, the workspace, data presentation, navigation, and interaction detail can carry the identity; the direction need not depend on adding a marketing hero.
+
+Compare the proposed composition with the original at usable size. Ask what becomes more beautiful, memorable, and characteristic. If the visible difference is limited to minor token changes while the page still feels generic, develop the direction further before presenting it as a substantial beauty improvement.
+
 ## Hierarchy and reading order
 
 Book: PDF pp. 114-140, 173-174.

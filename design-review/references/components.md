@@ -4,6 +4,8 @@ Use only the sections relevant to the reviewed interface. References are 1-based
 
 Review every component for opportunities to improve visual craft and expressive motion as well as function. Develop tactile press states, animated focus and selection, springing switches, icon morphs, fluid menus and disclosures, coordinated list changes, rich card interactions, and satisfying feedback as they fit the design. Treat these as creative possibilities rather than a checklist. Use [motion.md](motion.md) for choreography and the full-motion default; reduced motion is the alternative for users who request it. Component consistency should support a coherent, distinctive visual language rather than freeze existing styling.
 
+For components being refined, design the full visual and interaction treatment: its material and shape, typographic detail, response to input, transition into a new state, and completion. Connect those treatments to the page's artistic direction. A generic component with an added hover color can still feel unfinished; inspect its actual appearance and motion in context and develop it until it contributes to the intended beauty and character.
+
 ## Buttons and actions
 
 Book: PDF pp. 44, 72-74, 121-122, 129-130, 196.
