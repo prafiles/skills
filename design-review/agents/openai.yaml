@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Review"
+  short_description: "Reduce user effort with thoughtful design and intuitive motion"
+  default_prompt: "Use $design-review to reduce the target user's cognitive burden and improve delight with intuitive design and motion, preserving the existing design and asking before changing base choices."
