@@ -10,7 +10,7 @@ Book: PDF pp. 44, 72-74, 121-122, 129-130, 196.
 
 - Does the label describe the outcome in the user's vocabulary? Prefer a specific action over an ambiguous “Submit” when the result is known.
 - Are primary, secondary, and destructive actions distinguishable without making secondary actions unreadable or hard to activate?
-- Are size, padding, alignment, focus, pressed, disabled, and loading treatments consistent? Does a state change cause a distracting layout shift? A horizontal-to-vertical padding ratio near 2:1 is an example, not a required geometry.
+- Do size, padding, alignment, focus, pressed, disabled, and loading treatments form a coherent visual language? State changes can include expressive resizing, movement, or transformation; check continuity and usable action targets. A horizontal-to-vertical padding ratio near 2:1 is an example, not a required geometry.
 - Is progress communicated after activation? Can users understand completion or failure? Verify duplicate-submission handling only when testing or source inspection supports it.
 - Does action placement follow the task, platform, and reading direction? Do not enforce the book's left/right button placement as a universal rule.
 
@@ -75,5 +75,5 @@ Keep tooltips concise, adjacent to their trigger, within the viewport, and usefu
 Book: PDF pp. 95-97, 105-113.
 
 - **Cards:** one coherent subject; clear relationships between image, title, supporting content, and actions; appropriate heading level and padding. Check image crops and content order across viewports. If the whole card is actionable, examine conflicts with nested actions rather than blindly wrapping everything in one link.
-- **Icons:** consistent family, visual weight, optical size, and text alignment. Use recognizable meanings and appropriate labels. Prefer scalable assets; a particular icon library or mandatory outline/solid split is not required.
+- **Icons:** coherent art direction, deliberate visual weight, optical size, and text alignment. Custom artwork, animated icons, and intentional combinations of styles can contribute character. Keep meanings understandable and labels appropriate; choose assets that render well at their intended sizes without requiring one family, format, or outline/solid split.
 - **Avatars:** consistent identity representation across contexts, appropriate size and crop, and a useful fallback without unsupported gender assumptions. Do not treat a circular shape as mandatory. Status markers must be understandable and not obscure the subject.
