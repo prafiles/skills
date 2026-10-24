@@ -14,21 +14,21 @@ For a multi-app review, retain a baseline and result for each app. A shared impl
 
 | Quality | Acceptance question |
 | --- | --- |
-| Task clarity | Does the target user search, remember, interpret, or decide less, while retaining essential information and truthful state? |
-| Visual craft | Does the refinement enhance beauty, spacing, alignment, hierarchy, typography, proportions, density, or component detail while staying consistent with the current design system, unless a refactor is authorized? |
-| Motion and delight | Does the existing or proposed behavior visibly connect action and result, feel responsive and intentional, and preserve a complete reduced-motion experience? |
+| Task clarity | Can the target user understand and perform the task with clear content, usable controls, essential information, and truthful state? |
+| Visual craft | Does the result strengthen beauty, composition, color, typography, proportions, imagery, depth, and character, evolving the design system where it improves the experience within scope? |
+| Motion and delight | Does the full default treatment deliver beautiful, expressive, responsive animation with intentional choreography and satisfying detail, while providing a complete alternative when reduced motion is requested? |
 
-An improvement on one front does not excuse a regression on another. When a functional addition looks worse, refine its presentation before calling the work complete. Prefer integrating feedback into the existing component over adding explanatory copy or another panel.
+Evaluate these qualities together in the actual experience. When a functional addition looks worse, refine its presentation before calling the work complete. Beauty and delight are valid improvements independently of task-efficiency gains. Do not accept a result merely because it is simpler, quieter, more neutral, or closer to the original; compare the craft and feel of the finished experience.
 
-Inspect the complete page composition and the local component contract: nested padding, header and section height, label/control baselines, metric and table rhythm, wrapping, icon alignment, border weight, and remaining chart or map area. Check where the primary task lands in the viewport. Repair a local spacing mismatch before changing shared tokens or adding global overrides.
+Inspect the complete page composition and the local component contract: nested padding, header and section height, label/control baselines, metric and table rhythm, wrapping, icon alignment, border weight, and remaining chart or map area. Check where the primary task lands in the viewport. Choose local or shared improvements according to their effect on the composition, and inspect affected consumers when evolving tokens or patterns.
 
 Check relevant wide and narrow views, including the smallest supported width affected by the change. Exercise long labels and meaningful data; include applicable themes, reading direction, and expanded or selected states. Preserve essential values and context, usable controls, grouping, and scroll continuity. Check representative consumers of shared changes.
 
 ## Make motion reviewable
 
-For each existing or proposed motion treatment being evaluated, make its trigger, visible change, timing/easing, settled state, and reduced-motion alternative concrete. Use a playable implementation or recording when the feel or choreography is part of the decision. Do not substitute a written promise or static screenshot for an observable effect.
+For each existing or proposed motion treatment being evaluated, make its trigger, expressive contribution, visible change, choreography, timing/easing, and settled state concrete. Show the full-motion default in a playable implementation or recording when feel or choreography is part of the decision. Separately show the alternative with reduced motion explicitly requested. Do not substitute a written promise or static screenshot for an observable effect.
 
-In the applied UI, exercise normal motion, rapid repeated input or reversal, navigation/cleanup, and initial and live reduced-motion preferences where applicable. Check focus and result visibility, and confirm that logical state and real save/error outcomes remain correct when animation is cancelled or unavailable. Use runtime observations for properties a recording cannot establish. Record only what was actually checked; do not infer smoothness or accessibility from a successful build.
+In the applied UI, verify that the full treatment runs without an opt-in or reduction request, including under `no-preference`. Exercise rapid repeated input or reversal, navigation/cleanup, an initial reduction request, and preference changes in both directions where applicable. Confirm that subsequent interactions regain full motion when the reduction request is removed. Check focus and result visibility, and confirm that logical state and real save/error outcomes remain correct when animation is cancelled or unavailable. Evaluate expressive feel as well as runtime behavior. Record only what was actually checked; do not infer smoothness, delight, or accessibility from a successful build.
 
 ## Verify the applied result and handoff
 
