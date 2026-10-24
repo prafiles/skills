@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Review"
+  short_description: "Review UI design with evidence and practical fixes"
+  default_prompt: "Use $design-review to critique this interface and give prioritized, evidence-based improvements using the principles in Design for Developers."
