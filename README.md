@@ -7,7 +7,7 @@ Reusable agent skills maintained in [prafiles/skills](https://github.com/prafile
 | [django-primary-replica](django-primary-replica/SKILL.md) | Plan Django connections and primary/replica routing through PgBouncer. |
 | [api-performance-plan](api-performance-plan/SKILL.md) | Diagnose slow table-view APIs and plan indexing and row-level caching. |
 | [email-thread-summary](email-thread-summary/SKILL.md) | Summarize email threads and identify the user's action items. |
-| [design-review](design-review/SKILL.md) | Review interfaces using Design for Developers, with evidence and prioritized fixes. |
+| [design-review](design-review/SKILL.md) | Review visual design and motion using Design for Developers and Animation at Work, with evidence and prioritized fixes. |
 
 Each directory is a self-contained skill with a `SKILL.md` entrypoint. Its YAML frontmatter defines the name and when the skill applies; the body provides the workflow.
 
