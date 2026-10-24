@@ -1,6 +1,6 @@
 interface:
   display_name: "Design Review"
-  short_description: "Elevate UI beauty and rich, expressive animation"
-  default_prompt: "Use $design-review to elevate beauty, clarity, character, and rich, expressive animation by default, evolving the design within scope and providing reduced motion only when users request it."
+  short_description: "Create more beauty and expressive animation in UI"
+  default_prompt: "Use $design-review to create a distinct artistic direction and visibly improve UI beauty with more expressive animation by default. Evolve the design within scope, verify the result in motion, and make reduced motion opt-in."
 policy:
   allow_implicit_invocation: true

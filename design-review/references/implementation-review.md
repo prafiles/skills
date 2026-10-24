@@ -22,6 +22,8 @@ For a multi-app review, retain a baseline and result for each app. A shared impl
 
 Evaluate these qualities together in the actual experience. When a functional addition looks worse, refine its presentation before calling the work complete. Beauty and delight are valid improvements independently of task-efficiency gains. Do not accept a result merely because it is simpler, quieter, more neutral, or closer to the original; compare the craft and feel of the finished experience.
 
+For a request for more animation and beauty, require visible evidence of that improvement in the relevant page composition and running interactions. Identify the artistic direction, the most meaningful visual changes, and the added or elevated motion moments. Review both a settled view and the experience in motion. If the result still feels generic or largely static, iterate on the design rather than accepting a passing build, more animation code, or a written promise as completion.
+
 Inspect the complete page composition and the local component contract: nested padding, header and section height, label/control baselines, metric and table rhythm, wrapping, icon alignment, border weight, and remaining chart or map area. Check where the primary task lands in the viewport. Choose local or shared improvements according to their effect on the composition, and inspect affected consumers when evolving tokens or patterns.
 
 Check relevant wide and narrow views, including the smallest supported width affected by the change. Exercise long labels and meaningful data; include applicable themes, reading direction, and expanded or selected states. Preserve essential values and context, usable controls, grouping, and scroll continuity. Check representative consumers of shared changes.
