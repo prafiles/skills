@@ -1,6 +1,6 @@
 # Comparing proposals and applied changes
 
-Use this workflow when producing a visual proposal or implementing authorized refinements. It extends the book-derived criteria with lessons from implementation reviews. Scale the checks to the affected interface; it does not create a new approval requirement or authorize unrelated configuration, CI, or deployment work.
+Use the baseline and quality checks in every review to identify useful enhancements, comparison checks for visual proposals, and applied-result checks when implementing authorized refinements. This workflow extends the book-derived criteria with lessons from implementation reviews. Scale the checks to the affected interface; it does not create a new approval requirement or authorize unrelated configuration, CI, or deployment work.
 
 ## Establish a comparable baseline
 
@@ -15,8 +15,8 @@ For a multi-app review, retain a baseline and result for each app. A shared impl
 | Quality | Acceptance question |
 | --- | --- |
 | Task clarity | Does the target user search, remember, interpret, or decide less, while retaining essential information and truthful state? |
-| Visual craft | Are spacing, alignment, hierarchy, typography, proportions, density, and component detail coherent with the established design? |
-| Motion and delight | Does the requested behavior visibly connect action and result, feel responsive and intentional, and preserve a complete reduced-motion experience? |
+| Visual craft | Does the refinement enhance beauty, spacing, alignment, hierarchy, typography, proportions, density, or component detail while staying consistent with the current design system, unless a refactor is authorized? |
+| Motion and delight | Does the existing or proposed behavior visibly connect action and result, feel responsive and intentional, and preserve a complete reduced-motion experience? |
 
 An improvement on one front does not excuse a regression on another. When a functional addition looks worse, refine its presentation before calling the work complete. Prefer integrating feedback into the existing component over adding explanatory copy or another panel.
 
@@ -26,7 +26,7 @@ Check relevant wide and narrow views, including the smallest supported width aff
 
 ## Make motion reviewable
 
-For each requested motion treatment, make its trigger, visible change, timing/easing, settled state, and reduced-motion alternative concrete. Use a playable implementation or recording when the feel or choreography is part of the decision. Do not substitute a written promise or static screenshot for an observable effect.
+For each existing or proposed motion treatment being evaluated, make its trigger, visible change, timing/easing, settled state, and reduced-motion alternative concrete. Use a playable implementation or recording when the feel or choreography is part of the decision. Do not substitute a written promise or static screenshot for an observable effect.
 
 In the applied UI, exercise normal motion, rapid repeated input or reversal, navigation/cleanup, and initial and live reduced-motion preferences where applicable. Check focus and result visibility, and confirm that logical state and real save/error outcomes remain correct when animation is cancelled or unavailable. Use runtime observations for properties a recording cannot establish. Record only what was actually checked; do not infer smoothness or accessibility from a successful build.
 

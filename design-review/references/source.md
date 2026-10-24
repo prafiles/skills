@@ -1,6 +1,6 @@
 # Sources and adaptation notes
 
-The user's review priorities supplement both books: strongly prioritize the target user's cognitive burden, seek customer delight and intuitive motion, preserve established designs by default, and ask before changing base choices. These are explicit working preferences, not claims attributed to either book. The operative change boundary is in [SKILL.md](../SKILL.md).
+The user's review priorities supplement both books: reduce the target user's cognitive burden with minimal, purposeful text; enhance visual quality; and proactively seek customer delight and intuitive motion by default. Keep the current design system consistent unless a design refactor is requested, and follow the authorized refactor scope without redundant permission requests. These are explicit working preferences, not claims attributed to either book. The operative change boundary is in [SKILL.md](../SKILL.md).
 
 ## Design for Developers
 
