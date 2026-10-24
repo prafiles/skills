@@ -34,6 +34,10 @@ Seek delight in responsiveness, reassurance, and a satisfying sense of completio
 
 Evaluate both first-time and repeated use. Ask what the motion helps the target user notice or understand, whether it stays pleasant when repeated, and whether a simpler effect works as well. Compare the normal and reduced-motion experiences: both must communicate the outcome and support the same task. Keep novelty optional and do not claim delight without user evidence.
 
+Inventory useful existing motion before replacing or removing it. For a requested enhancement, describe the trigger, visible relationship, transition, and settled result. Consider a selected indicator travelling within its existing rail, a disclosure expanding from its current height, coordinated map/list selection, or a brief acknowledgement in the control that completed an action. These are examples, not an effect checklist: choose behavior that fits this product and preserves its composition.
+
+Keep first render and passive refresh honest. Show usable values immediately; do not replay entrances, count-ups, or success effects merely because unchanged content rerenders or refreshes. A user-triggered filter change can use motion to preserve result continuity without replaying untouched regions. A save acknowledgement belongs to confirmed persistence, not a click or a queued request. The settled state must remain understandable after the effect ends and when animation is skipped.
+
 ## Timing, easing, and choreography
 
 Book: PDF pp. 42-49, 51-57.
@@ -52,6 +56,7 @@ Book: PDF pp. 63-67; interruption and recovery checks are workflow extensions.
 
 - Check both entrance and exit. Direction and origin should support the same spatial model. Abrupt disappearance deserves investigation when it breaks that model; an immediate exit can be appropriate for responsiveness or reduced motion.
 - Try reversal, rapid repeated activation, navigation away, and dismissal where safe. Look for queued obsolete animations, snapping to a stale start state, invisible elements retaining focus or pointer interception, and UI state that diverges from the completed action. Do not delay logical completion or trap focus solely to finish an exit effect.
+- Retarget from the currently displayed position or measured size when reversing an in-flight effect; cancel obsolete effects and clean them up on navigation or unmount. Preserve the used control, reading position, URL state, and relevant selection. Reveal or focus an offscreen result when the task requires it; motion within a clipped or distant region is not sufficient feedback.
 - Inspect fast, slow, failed, and cancelled loading paths where available. Avoid empty-content flashes, stale content reappearing during exit, or brief loading indicators after content is ready. Preserve context while showing accurate progress and recovery.
 - Loading effects should explain a real wait. Do not add artificial delays to exhibit a spinner or leave usable server-rendered content hidden until JavaScript animates it. A skeleton, static status, or direct update may suit the task better than a looping shimmer.
 
@@ -62,3 +67,5 @@ Book: PDF pp. 49, 67-75. Use [accessibility.md](accessibility.md) for current st
 Observe frame pacing and responsiveness on relevant devices, including while scrolling or loading. Inspect rendering evidence before blaming an animated property. Consider transform or opacity alternatives where layout or paint work is costly, but do not promise GPU acceleration or smoothness from the property name alone. Record the environment and measured result; a screenshot or encoded recording does not prove runtime frame rate. Do not treat 60 FPS as a universal perceptual limit or automatically add blur or throttle frame rates.
 
 Check reduced-motion behavior for large translations, zooms, parallax, and repeated effects. Preserve essential information and task completion using a static result or restrained alternative; merely speeding up or slowing down the same motion may not address the problem. Verify that skipping animation does not prevent completion callbacks, status updates, or focus restoration. Do not assume fades suit every user or that a preference toggle alone proves accessible behavior.
+
+Check both an initial reduced-motion preference and a preference change during a running transition. Active effects should cancel and settle into the correct current state. Where implementation relies on an animation API, preserve working interaction and completion when that API is unavailable; feature detection should fall back to the settled result. Verify these behaviors in the applied UI rather than inferring them from a media query or helper name.

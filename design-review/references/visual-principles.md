@@ -28,6 +28,10 @@ Prefer the existing spacing scale. The book illustrates 4- and 5-unit scales and
 
 Check that text and controls have breathing room inside containers and that increased spacing does not bury related actions. On narrow screens, preserve task grouping and usable gutters without forcing desktop columns or introducing accidental overflow.
 
+Inspect spacing as a system of proportions: page gutter, section gap, card inset, heading-to-content gap, row rhythm, and control baseline. Compare the whole composition before and after a local correction. Extra wrappers can double padding, a new summary can displace the map or chart, and a taller header can push the main task below the fold even when each component looks reasonable alone.
+
+Preserve useful density on phones as well as desktop. Choose columns and wrapping from the actual content; avoid automatically turning every metric into a tall full-width card. Keep values, units, and essential label context readable rather than clipping them or shrinking type merely to retain a grid. Check the resulting reading order and scroll distance at the supported narrow widths.
+
 **Useful correction:** apply a shared container token, reduce a label-to-field gap, and increase the gap before the next field group. Avoid recommending only “add more whitespace.”
 
 ## Typography
