@@ -1,52 +1,52 @@
 # Motion and animation review
 
-Based on Rachel Nabors' *Animation at Work*. All book pages below are 1-based PDF positions in the supplied 88-page file; see [source.md](source.md). Interruption, input, and verification checks extend the book into a review workflow.
+Based on Rachel Nabors' *Animation at Work*, extended by the user's preference for more beautiful, expressive animation by default. All book pages below are 1-based PDF positions in the supplied 88-page file; see [source.md](source.md). The default creative direction and the interruption, input, and verification checks are adaptations rather than book requirements.
 
-## Establish the purpose before changing the effect
+## Develop a rich motion language
 
 Book: PDF pp. 12-22, 24-40.
 
-Describe what the user learns from the animation in one sentence. Use the book's five patterns to identify its role; an animation can serve more than one:
+Actively seek opportunities to add and improve animation across the experience. Describe its intended experiential contribution: beauty, atmosphere, character, delight, continuity, or feedback. An animation does not have to teach something or reduce cognitive burden to be worthwhile. Use the book's five patterns to explore its role; an animation can serve more than one:
 
 | Pattern | Review question |
 | --- | --- |
-| Transition | Does it explain a change of location or task and preserve orientation? |
-| Supplement | Does it explain content entering, leaving, or updating within the same task? |
-| Feedback | Does it connect an action to acknowledgement, progress, or outcome? |
-| Demonstration | Does it explain a relationship or process more clearly than the available static explanation? |
-| Decoration | Does its brand or expressive value justify the attention and implementation cost? |
+| Transition | How can movement make a change of location or task fluid, expressive, and easy to follow? |
+| Supplement | How can content enter, leave, or update with visual continuity and character? |
+| Feedback | How can acknowledgement, progress, or outcome feel responsive and satisfying? |
+| Demonstration | How can animation make a relationship or process engaging and understandable? |
+| Decoration | How can motion enrich beauty, atmosphere, brand expression, or emotional appeal? |
 
-Look for abrupt context changes, unexplained insertion or removal, and actions without feedback. These are candidates for motion, not proof that motion is required. Compare with a clearer static state or simpler content change. Do not replace ordinary navigation architecture merely to enable page transitions.
+Treat static or underdeveloped moments, abrupt context changes, content insertion or removal, and actions without feedback as opportunities for expressive motion. Preserve and elevate successful existing effects. Develop coordinated page transitions, reveals, animated illustrations, moving selection indicators, responsive controls, and celebratory outcomes where they suit the product. Work within the requested scope described in [SKILL.md](../SKILL.md).
 
-Motion attracts attention, including outside the user's current focus. Check whether peripheral loops, repeated bounces, or simultaneous effects compete with reading or the primary action. Decoration is not automatically a defect, and unnoticed motion is not proof of reduced cognitive load. Treat perceptual benefits as hypotheses to verify with the task and audience.
+Motion attracts attention; use choreography, rhythm, layering, and a clear focal point to compose that attention. Loops, bounces, springs, parallax, and simultaneous effects are creative tools. Assess their actual execution with readable content and usable controls. Recommend reducing or removing an effect only for a concrete problem or an explicit user request; first consider improving its timing, path, layering, or trigger.
 
-Prioritize expected task benefit against implementation effort and dependencies. Separate inexpensive useful feedback from larger navigation investments; prototype uncertain, costly changes before recommending broad adoption. Keep this effort assessment separate from finding severity.
+Prioritize by the user's goals and the quality of the resulting experience, including aesthetic and emotional value. Prototype choreography when seeing it in motion will help choose a direction. Discuss implementation cost when it affects an actual project constraint; do not assume that the cheapest or simplest effect is the best design.
 
-## Intuitive motion and customer delight
+## Expressive motion and customer delight
 
-These review priorities apply by default, extending the book with the user's emphasis on cognitive burden and delight. Seek useful enhancements without waiting for a separate animation request. Apply the design-system and authorization boundary in [SKILL.md](../SKILL.md); adding motion does not authorize replacing the product's interaction model.
+These review priorities apply without waiting for a separate animation request. Deliver the full, expressive motion treatment by default. Reduced motion is a preference-based alternative for users who request it through their operating system, browser, or an explicit product setting; users without that request receive the full experience. Existing motion conventions are a starting point that can evolve with the design.
 
 Make cause and effect easy to follow. A panel can emerge from its trigger, an item can visibly join the collection it belongs to, and a reordered row can retain its identity as its position changes. Preserve familiar direction, origin, and destination; use motion to answer where something went or what changed without demanding explanation. Avoid moving the action target away while the user is trying to activate it.
 
-Choreograph attention toward the next useful state. Keep the relevant content stable, acknowledge input promptly, and let secondary effects settle without delaying reading or the next action. Several simultaneous movements or a long entrance sequence can cost more attention than the change they explain. Use established motion patterns and test whether the relationship is understandable on first use.
+Choreograph attention through the whole scene. Explore layered entrances, staggered reveals, shared-element transitions, flowing layout changes, and coordinated primary and secondary motion. Acknowledge input promptly and let people continue interacting while animation progresses. Give the sequence a deliberate visual rhythm and test it in the real page composition.
 
-Seek delight in responsiveness, reassurance, and a satisfying sense of completion. A subtle saved-state acknowledgement or a smooth expansion that preserves reading position may be more appropriate than a bounce or celebration. Match expressiveness to the brand, task frequency, and emotional context; allow restraint for repetitive work and serious tasks. Do not signal success before it is confirmed.
+Seek delight through expressive responsiveness, playful detail, anticipation, follow-through, and a satisfying sense of completion. Consider tactile press responses, spring-driven expansion, icon morphs, animated illustrations, and confident celebration as well as smooth continuity. Match the artistic direction to the brand and emotional context without assuming that professional or frequently used software must be visually subdued. Success feedback must correspond to a confirmed outcome.
 
-Evaluate both first-time and repeated use. Ask what the motion helps the target user notice or understand, whether it stays pleasant when repeated, and whether a simpler effect works as well. Compare the normal and reduced-motion experiences: both must communicate the outcome and support the same task. Keep novelty optional and do not claim delight without user evidence.
+Evaluate both first-time and repeated use for beauty, feel, continuity, responsiveness, and control. Refine triggers, rhythm, and variation when repetition reveals a specific problem. Evaluate the full-motion experience on its own merits, then explicitly request reduced motion and verify that the alternative communicates the same outcomes and supports the same tasks. Distinguish intended delight from measured user response.
 
-Inventory useful existing motion before replacing or removing it. For a proposed or implemented enhancement, describe the trigger, visible relationship, transition, and settled result. Consider a selected indicator travelling within its existing rail, a disclosure expanding from its current height, coordinated map/list selection, or a brief acknowledgement in the control that completed an action. These are examples, not an effect checklist: choose behavior that enhances this product while staying consistent with its design system.
+Inventory useful existing motion before changing it. For a proposed or implemented enhancement, describe the trigger, visible relationship, transition, and settled result. Consider a travelling selected indicator, a springing disclosure, coordinated map/list selection, a shared-element detail view, a staged hero reveal, a dimensional card response, or an illustrated success sequence. Develop a coherent motion language across these moments, evolving shared patterns and tokens as needed. These examples suggest creative range rather than an effect checklist.
 
-Keep first render and passive refresh honest. Show usable values immediately; do not replay entrances, count-ups, or success effects merely because unchanged content rerenders or refreshes. A user-triggered filter change can use motion to preserve result continuity without replaying untouched regions. A save acknowledgement belongs to confirmed persistence, not a click or a queued request. The settled state must remain understandable after the effect ends and when animation is skipped.
+Make first render and live updates engaging and accurate. Use entrances, count-ups, animated changes, and ongoing ambient treatments with deliberate triggers and stable identity. Unrelated rerenders should not accidentally restart a sequence. A user-triggered filter change can visibly reorganize results; a passive data change can animate the values that actually changed. A save acknowledgement belongs to confirmed persistence, not a queued request. Preserve access to real values and keep the settled state understandable after an effect ends or is skipped.
 
 ## Timing, easing, and choreography
 
 Book: PDF pp. 42-49, 51-57.
 
-Record the trigger, changed properties, start/end states, duration, delay, and easing when those values are available. Reuse existing motion tokens or named patterns before inventing new ones. Compare equivalent actions across the product; consistent meaning matters more than identical durations for different travel distances.
+Record the trigger, changed properties, start/end states, duration, delay, and easing when those values are available. Develop or evolve motion tokens and named patterns that express the intended visual language. Compare equivalent actions across the product; consistent meaning matters more than identical durations for different travel distances.
 
-Immediate user feedback should feel connected to the action. Deceleration can support a quick response that settles; acceleration can introduce an unsolicited change more gently; an ease-in-out can connect positions. These are starting points, not mandatory mappings. Check the actual curve and effect rather than assuming a keyword ensures the right feel.
+Immediate user feedback should feel connected to the action. Explore deceleration, acceleration, expressive easing curves, spring dynamics, anticipation, overshoot, and follow-through to give movement weight and character. Tune related effects together; a curve name alone does not establish the feel.
 
-Judge total waiting time, including delay and stagger, not only one element's duration. The book's 100/300/400/700 ms scale is illustrative; distance, scale, task frequency, and audience affect appropriate timing. Do not automatically quarter production timings or enforce a single duration on every animation. Frequent actions should not wait for decorative sequences to complete.
+Judge total sequence timing, including delay and stagger, as well as each element's duration. The book's 100/300/400/700 ms scale is illustrative; distance, scale, visual rhythm, and the intended feeling affect timing. Give expressive transitions enough time to be perceived and enjoyed. Do not automatically shorten production timings or enforce a single duration. Keep controls usable and logical completion independent of decorative sequences.
 
 For a proposed handoff, pair a small before/during/after storyboard with values and rationale; add a playable example when timing or choreography needs evaluation. A GIF alone does not specify exact implementation values, and a storyboard alone cannot demonstrate the motion's feel. Create these artifacts only when useful to the requested scope.
 
@@ -58,7 +58,7 @@ Book: PDF pp. 63-67; interruption and recovery checks are workflow extensions.
 - Try reversal, rapid repeated activation, navigation away, and dismissal where safe. Look for queued obsolete animations, snapping to a stale start state, invisible elements retaining focus or pointer interception, and UI state that diverges from the completed action. Do not delay logical completion or trap focus solely to finish an exit effect.
 - Retarget from the currently displayed position or measured size when reversing an in-flight effect; cancel obsolete effects and clean them up on navigation or unmount. Preserve the used control, reading position, URL state, and relevant selection. Reveal or focus an offscreen result when the task requires it; motion within a clipped or distant region is not sufficient feedback.
 - Inspect fast, slow, failed, and cancelled loading paths where available. Avoid empty-content flashes, stale content reappearing during exit, or brief loading indicators after content is ready. Preserve context while showing accurate progress and recovery.
-- Loading effects should explain a real wait. Do not add artificial delays to exhibit a spinner or leave usable server-rendered content hidden until JavaScript animates it. A skeleton, static status, or direct update may suit the task better than a looping shimmer.
+- Make real waits visually engaging through animated skeletons, progress choreography, shimmer, or branded loading sequences. Keep progress truthful, show ready content promptly, and transition beautifully into the loaded state. The animation should adapt to the real wait rather than adding an artificial delay to finish its sequence.
 
 ## Performance and user control
 
@@ -66,6 +66,8 @@ Book: PDF pp. 49, 67-75. Use [accessibility.md](accessibility.md) for current st
 
 Observe frame pacing and responsiveness on relevant devices, including while scrolling or loading. Inspect rendering evidence before blaming an animated property. Consider transform or opacity alternatives where layout or paint work is costly, but do not promise GPU acceleration or smoothness from the property name alone. Record the environment and measured result; a screenshot or encoded recording does not prove runtime frame rate. Do not treat 60 FPS as a universal perceptual limit or automatically add blur or throttle frame rates.
 
-Check reduced-motion behavior for large translations, zooms, parallax, and repeated effects. Preserve essential information and task completion using a static result or restrained alternative; merely speeding up or slowing down the same motion may not address the problem. Verify that skipping animation does not prevent completion callbacks, status updates, or focus restoration. Do not assume fades suit every user or that a preference toggle alone proves accessible behavior.
+When performance needs improvement, optimize rendering, assets, scheduling, and animation execution while preserving the intended visual richness. Do not silently replace the full treatment with a reduced-motion aesthetic based on assumed device limits or task frequency. Provide pause or stop controls for ongoing content where required; such controls let users manage motion without suppressing it by default. Follow the flashing limits in [accessibility.md](accessibility.md) in every mode.
 
-Check both an initial reduced-motion preference and a preference change during a running transition. Active effects should cancel and settle into the correct current state. Where implementation relies on an animation API, preserve working interaction and completion when that API is unavailable; feature detection should fall back to the settled result. Verify these behaviors in the applied UI rather than inferring them from a media query or helper name.
+Activate reduced motion only for a user request such as `prefers-reduced-motion: reduce` or an explicit in-product preference. In its absence, including `no-preference`, retain the full treatment. With reduction requested, adapt large translations, zooms, parallax, and repeated effects using a static result or a suitable alternative. Preserve essential information and task completion; merely changing the speed of the same movement may not address the request. Verify that skipping animation does not prevent completion callbacks, status updates, or focus restoration. Do not assume fades suit every user or that a preference toggle alone proves accessible behavior.
+
+Check the full-motion default, an initial reduced-motion request, and preference changes in both directions during a running transition. When reduction is requested, active effects should cancel or adapt and settle into the correct current state. When the request is removed, subsequent interactions should use the full treatment again. Where an animation API is unavailable, preserve working interaction and completion through capability fallback. Verify these behaviors in the applied UI rather than inferring them from a media query or helper name.

@@ -2,6 +2,8 @@
 
 Use only the sections relevant to the reviewed interface. References are 1-based PDF pages from *Design for Developers*. These prompts paraphrase and adapt the book; keyboard, responsive, and recovery checks extend the visual examples into a usable review workflow. Consult [accessibility.md](accessibility.md) when judging standards compliance.
 
+Review every component for opportunities to improve visual craft and expressive motion as well as function. Develop tactile press states, animated focus and selection, springing switches, icon morphs, fluid menus and disclosures, coordinated list changes, rich card interactions, and satisfying feedback as they fit the design. Treat these as creative possibilities rather than a checklist. Use [motion.md](motion.md) for choreography and the full-motion default; reduced motion is the alternative for users who request it. Component consistency should support a coherent, distinctive visual language rather than freeze existing styling.
+
 ## Buttons and actions
 
 Book: PDF pp. 44, 72-74, 121-122, 129-130, 196.
@@ -55,7 +57,7 @@ Book: PDF pp. 81-83, 98-104, 155.
 
 Book: PDF pp. 84-91.
 
-- Can users identify headers, scan across a row, and distinguish hover, selection, and other states? Use appropriate cell padding and restrained separators. Zebra striping is useful only when it improves scanning.
+- Can users identify headers, scan across a row, and distinguish hover, selection, and other states? Develop cell spacing, separators, surface treatments, and zebra striping to support both legibility and visual character. Animate filtering, sorting, selection, and actual data changes with continuity.
 - Align text with its reading direction and comparable numbers consistently, often at the end or decimal. Keep header alignment associated with its data.
 - Expose relevant search, filtering, sorting, and pagination with clear states when the task needs them. Large datasets may benefit from fixed headers or key columns. Do not add all controls to every table.
 - Truncation needs an accessible way to obtain the full value. A mouse-only tooltip is insufficient for essential data.

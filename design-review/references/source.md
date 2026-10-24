@@ -1,6 +1,6 @@
 # Sources and adaptation notes
 
-The user's review priorities supplement both books: reduce the target user's cognitive burden with minimal, purposeful text; enhance visual quality; and proactively seek customer delight and intuitive motion by default. Keep the current design system consistent unless a design refactor is requested, and follow the authorized refactor scope without redundant permission requests. These are explicit working preferences, not claims attributed to either book. The operative change boundary is in [SKILL.md](../SKILL.md).
+The user's review priorities supplement both books: pursue beauty, clarity, character, and delight across the whole experience, with more beautiful, expressive animation by default. Aesthetic and emotional value are sufficient reasons for an enhancement; it need not also reduce task effort. Remove blanket preferences for restraint, minimalism, muted styling, subtle effects, or the smallest change. Use purposeful copy and evolve the visual and motion system when it improves the result within the requested scope. Provide reduced motion only for users who request it through their operating system, browser, or an explicit product setting; otherwise deliver the full treatment without an opt-in. These are explicit working preferences, not claims attributed to either book. The operative scope and authorization boundary is in [SKILL.md](../SKILL.md).
 
 ## Design for Developers
 
