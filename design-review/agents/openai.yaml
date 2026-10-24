@@ -1,4 +1,6 @@
 interface:
   display_name: "Design Review"
-  short_description: "Reduce user effort with thoughtful design and intuitive motion"
-  default_prompt: "Use $design-review to reduce the target user's cognitive burden and improve delight with intuitive design and motion, preserving the existing design and asking before changing base choices."
+  short_description: "Enhance UI clarity, beauty and delight by default"
+  default_prompt: "Use $design-review to reduce cognitive burden, minimize copy, enhance visual quality, and add appropriate delight and motion by default, keeping the current design system consistent unless a design refactor is requested."
+policy:
+  allow_implicit_invocation: true

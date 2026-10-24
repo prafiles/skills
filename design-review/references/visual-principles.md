@@ -2,7 +2,7 @@
 
 These are review questions and adaptations of *Design for Developers*. Page references use the supplied PDF's **1-based page index**, not the larger numbers in its contents. See [source.md](source.md) for provenance and interpretation limits.
 
-Apply the change boundary in [SKILL.md](../SKILL.md) to every recommendation. Correcting inconsistent use of existing tokens differs from replacing a foundational palette, type system, theme strategy, or layout; prepare those replacements for confirmation before applying them.
+Apply these criteria to proactively enhance visual quality in every review while respecting the change boundary in [SKILL.md](../SKILL.md). Improve use of the current system's tokens and components by default. Replace a foundational palette, type system, theme strategy, or layout only within an authorized design refactor; propose out-of-scope replacements before applying them.
 
 ## Hierarchy and reading order
 

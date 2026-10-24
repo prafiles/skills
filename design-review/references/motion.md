@@ -24,7 +24,7 @@ Prioritize expected task benefit against implementation effort and dependencies.
 
 ## Intuitive motion and customer delight
 
-These review priorities extend the book with the user's emphasis on cognitive burden and delight. Apply the design-preservation and confirmation boundary in [SKILL.md](../SKILL.md); adding motion does not authorize replacing the product's interaction model.
+These review priorities apply by default, extending the book with the user's emphasis on cognitive burden and delight. Seek useful enhancements without waiting for a separate animation request. Apply the design-system and authorization boundary in [SKILL.md](../SKILL.md); adding motion does not authorize replacing the product's interaction model.
 
 Make cause and effect easy to follow. A panel can emerge from its trigger, an item can visibly join the collection it belongs to, and a reordered row can retain its identity as its position changes. Preserve familiar direction, origin, and destination; use motion to answer where something went or what changed without demanding explanation. Avoid moving the action target away while the user is trying to activate it.
 
@@ -34,7 +34,7 @@ Seek delight in responsiveness, reassurance, and a satisfying sense of completio
 
 Evaluate both first-time and repeated use. Ask what the motion helps the target user notice or understand, whether it stays pleasant when repeated, and whether a simpler effect works as well. Compare the normal and reduced-motion experiences: both must communicate the outcome and support the same task. Keep novelty optional and do not claim delight without user evidence.
 
-Inventory useful existing motion before replacing or removing it. For a requested enhancement, describe the trigger, visible relationship, transition, and settled result. Consider a selected indicator travelling within its existing rail, a disclosure expanding from its current height, coordinated map/list selection, or a brief acknowledgement in the control that completed an action. These are examples, not an effect checklist: choose behavior that fits this product and preserves its composition.
+Inventory useful existing motion before replacing or removing it. For a proposed or implemented enhancement, describe the trigger, visible relationship, transition, and settled result. Consider a selected indicator travelling within its existing rail, a disclosure expanding from its current height, coordinated map/list selection, or a brief acknowledgement in the control that completed an action. These are examples, not an effect checklist: choose behavior that enhances this product while staying consistent with its design system.
 
 Keep first render and passive refresh honest. Show usable values immediately; do not replay entrances, count-ups, or success effects merely because unchanged content rerenders or refreshes. A user-triggered filter change can use motion to preserve result continuity without replaying untouched regions. A save acknowledgement belongs to confirmed persistence, not a click or a queued request. The settled state must remain understandable after the effect ends and when animation is skipped.
 
