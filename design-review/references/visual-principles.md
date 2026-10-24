@@ -2,6 +2,8 @@
 
 These are review questions and adaptations of *Design for Developers*. Page references use the supplied PDF's **1-based page index**, not the larger numbers in its contents. See [source.md](source.md) for provenance and interpretation limits.
 
+Apply the change boundary in [SKILL.md](../SKILL.md) to every recommendation. Correcting inconsistent use of existing tokens differs from replacing a foundational palette, type system, theme strategy, or layout; prepare those replacements for confirmation before applying them.
+
 ## Hierarchy and reading order
 
 Book: PDF pp. 114-140, 173-174.

@@ -1,5 +1,7 @@
 # Sources and adaptation notes
 
+The user's review priorities supplement both books: strongly prioritize the target user's cognitive burden, seek customer delight and intuitive motion, preserve established designs by default, and ask before changing base choices. These are explicit working preferences, not claims attributed to either book. The operative change boundary is in [SKILL.md](../SKILL.md).
+
 ## Design for Developers
 
 **Design for Developers**, by **Adrian Twarog and George Moller**, was supplied as `dark-version-updated.pdf` (220 PDF pages). The cover and authors are on PDF p. 1. The PDF's metadata records creation in July 2023; no edition or publication date is inferred from that metadata.

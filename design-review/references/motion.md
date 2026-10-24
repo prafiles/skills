@@ -22,6 +22,18 @@ Motion attracts attention, including outside the user's current focus. Check whe
 
 Prioritize expected task benefit against implementation effort and dependencies. Separate inexpensive useful feedback from larger navigation investments; prototype uncertain, costly changes before recommending broad adoption. Keep this effort assessment separate from finding severity.
 
+## Intuitive motion and customer delight
+
+These review priorities extend the book with the user's emphasis on cognitive burden and delight. Apply the design-preservation and confirmation boundary in [SKILL.md](../SKILL.md); adding motion does not authorize replacing the product's interaction model.
+
+Make cause and effect easy to follow. A panel can emerge from its trigger, an item can visibly join the collection it belongs to, and a reordered row can retain its identity as its position changes. Preserve familiar direction, origin, and destination; use motion to answer where something went or what changed without demanding explanation. Avoid moving the action target away while the user is trying to activate it.
+
+Choreograph attention toward the next useful state. Keep the relevant content stable, acknowledge input promptly, and let secondary effects settle without delaying reading or the next action. Several simultaneous movements or a long entrance sequence can cost more attention than the change they explain. Use established motion patterns and test whether the relationship is understandable on first use.
+
+Seek delight in responsiveness, reassurance, and a satisfying sense of completion. A subtle saved-state acknowledgement or a smooth expansion that preserves reading position may be more appropriate than a bounce or celebration. Match expressiveness to the brand, task frequency, and emotional context; allow restraint for repetitive work and serious tasks. Do not signal success before it is confirmed.
+
+Evaluate both first-time and repeated use. Ask what the motion helps the target user notice or understand, whether it stays pleasant when repeated, and whether a simpler effect works as well. Compare the normal and reduced-motion experiences: both must communicate the outcome and support the same task. Keep novelty optional and do not claim delight without user evidence.
+
 ## Timing, easing, and choreography
 
 Book: PDF pp. 42-49, 51-57.
