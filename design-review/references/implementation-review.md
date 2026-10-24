@@ -6,6 +6,8 @@ Use the baseline and quality checks in every review to identify useful enhanceme
 
 Record the original route, viewport, content, theme, language, scroll position, and interaction state that matter to the change. Wait for fonts and data to load. Identify what already works: composition, typography, palette, density, primary content position, and useful existing motion.
 
+The baseline is evidence for comparison, not a preservation requirement. Changes to density, page length, focal position, visual language, or familiar motion can improve the result. Evaluate the proposed direction against the user's goals and actual task access rather than treating every departure from the original as a regression.
+
 Compare original and proposed views under equivalent conditions. Different data, selected states, scroll positions, or loading phases can make a layout appear improved or broken for the wrong reason. Distinguish intentional state differences. Inspect at actual usable size as well as side by side; a shrunken full-page screenshot can conceal illegible type and excessive scrolling.
 
 For a multi-app review, retain a baseline and result for each app. A shared implementation pattern does not prove that every consumer has the same composition or needs the same treatment.

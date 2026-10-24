@@ -8,7 +8,7 @@ Apply these criteria to proactively pursue visual excellence in every review whi
 
 Book: PDF pp. 114-140, 173-174.
 
-Identify what should be noticed first, understood next, and acted on. Compare that intended order with the strongest visual signals: size, weight, contrast, position, density, and surrounding space. A large illustration, bright secondary button, or heavy border can accidentally outrank the task.
+Identify what should be noticed first, understood next, and acted on. Compare that intended order with the strongest visual signals: size, weight, contrast, position, density, and surrounding space. A large illustration, bright action, or bold frame can intentionally lead the composition. Assess whether the resulting hierarchy supports the intended experience and makes relevant actions discoverable.
 
 Look for a clear primary action within each task group, a meaningful distinction from secondary actions, and a recognizable relationship between heading, supporting explanation, and controls. Repeated primary actions can be appropriate in separate contexts; do not impose one button on an entire application.
 
@@ -20,7 +20,7 @@ The book's F and Z scanning patterns are useful hypotheses for some left-to-righ
 
 Book: PDF pp. 41-43, 141-151, 159-164.
 
-Related elements should read as a group: heading with its paragraph, label with its input, price with its product, and control with its result. Internal gaps should generally be smaller than gaps between unrelated groups. Extra whitespace is harmful if it makes related elements look disconnected.
+Make relationships legible: heading with its paragraph, label with its input, price with its product, and control with its result. Use proximity, alignment, shared surfaces, typography, connecting motifs, or coordinated movement to express those relationships. Generous spacing can create atmosphere and emphasis while other cues maintain grouping; judge the composition rather than imposing a gap ratio.
 
 Check consistent container edges, gutters, baselines, and padding. Look for unexplained alignment changes between navigation, page content, and sections. Use top alignment for differently sized content blocks when it improves scanning; center alignment may fit compact items such as a logo and navigation row. Respect intentional asymmetry.
 
@@ -28,9 +28,9 @@ Use a coherent spacing scale and evolve it when the composition benefits. The bo
 
 Check that text and controls have breathing room inside containers and that increased spacing does not bury related actions. On narrow screens, preserve task grouping and usable gutters without forcing desktop columns or introducing accidental overflow.
 
-Inspect spacing as a system of proportions: page gutter, section gap, card inset, heading-to-content gap, row rhythm, and control baseline. Compare the whole composition before and after a local correction. Extra wrappers can double padding, a new summary can displace the map or chart, and a taller header can push the main task below the fold even when each component looks reasonable alone.
+Inspect spacing as a system of proportions: page gutter, section gap, card inset, heading-to-content gap, row rhythm, and control baseline. Compare the whole composition before and after a change. Evaluate the role of headers, summaries, framing, and content area together. An expansive introduction or a below-the-fold task can be intentional; flag displacement when it impairs the intended flow rather than treating compactness or above-the-fold placement as universal goals.
 
-Preserve useful density on phones as well as desktop. Choose columns and wrapping from the actual content; avoid automatically turning every metric into a tall full-width card. Keep values, units, and essential label context readable rather than clipping them or shrinking type merely to retain a grid. Check the resulting reading order and scroll distance at the supported narrow widths.
+Choose density deliberately on phones as well as desktop. Compact grids, spacious cards, full-width features, and editorial sequences are available directions. Develop columns and wrapping from the content and intended composition, keeping values, units, and essential context readable. Check reading order, scrolling, and task access at supported narrow widths without assuming that a shorter page or denser grid is better.
 
 **Useful enhancement:** develop a deliberate rhythm between generous section spacing and closely grouped controls, use a shared container system, and adjust optical alignment. Explain the intended composition rather than recommending only “add more whitespace.”
 
@@ -40,7 +40,7 @@ Book: PDF pp. 25-39, 118-120, 154, 182, 191.
 
 Develop text roles through family, scale, weight, line height, tracking, and expressive detail. Explore display type, strong scale contrasts, intentional all caps, variable fonts, and complementary families where they strengthen character. Headings should be distinguishable from body text and metadata should remain readable; diagnose unclear roles rather than treating typographic richness as a defect.
 
-Evaluate actual legibility at the intended viewport, reading distance, and content density. Long passages, tiny thin text, crowded lines, or text over a busy image deserve attention. Inspect wrapping with real headings and labels rather than enforcing single-line headings.
+Evaluate actual legibility at the intended viewport, reading distance, and content density. Long-form copy, delicate type, and text over rich imagery can all be successful treatments; inspect whether readers can comfortably follow the real content. Tune scale, leading, contrast, overlays, and wrapping to support the chosen direction rather than automatically shortening copy or simplifying the background.
 
 The book offers roughly 16px body text and 1.5 body line height as starting points, with tighter leading for large headings. Use the product's actual typeface and content to choose values. Do not mechanically shrink body text on phones, impose serif headings, reject a single-family system, or treat illustrative font sizes as accessibility thresholds. Preserve meaningful links and their discoverability rather than removing underlines as a blanket style rule.
 
@@ -50,7 +50,7 @@ The book offers roughly 16px body text and 1.5 body line height as starting poin
 
 Book: PDF pp. 11-23, 127-140, 153, 170, 181, 189.
 
-Identify the roles of neutral surfaces, primary actions, secondary content, accents, and semantic states. Similar meanings should have consistent treatment, while success, warning, and destructive actions should be understandable through text or symbols as well as color.
+Identify the roles of surface colors, primary actions, secondary content, accents, and semantic states. Similar meanings should have coherent treatment, while success, warning, and destructive actions should be understandable through text or symbols as well as color. Surfaces can be vivid, patterned, illustrated, or neutral according to the artistic direction.
 
 Explore vibrant palettes, gradients, colorful surfaces, atmospheric backgrounds, and expressive accents where they strengthen the composition. Check readable foreground/background combinations and distinguishable semantic states. Diagnose specific hierarchy or legibility problems rather than treating saturation or multiple accents as inherently excessive. The monochromatic, analogous, complementary, and triadic examples are palette-building options; cultural color associations need context.
 

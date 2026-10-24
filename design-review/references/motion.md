@@ -18,7 +18,7 @@ Actively seek opportunities to add and improve animation across the experience. 
 
 Treat static or underdeveloped moments, abrupt context changes, content insertion or removal, and actions without feedback as opportunities for expressive motion. Preserve and elevate successful existing effects. Develop coordinated page transitions, reveals, animated illustrations, moving selection indicators, responsive controls, and celebratory outcomes where they suit the product. Work within the requested scope described in [SKILL.md](../SKILL.md).
 
-Motion attracts attention; use choreography, rhythm, layering, and a clear focal point to compose that attention. Loops, bounces, springs, parallax, and simultaneous effects are creative tools. Assess their actual execution with readable content and usable controls. Recommend reducing or removing an effect only for a concrete problem or an explicit user request; first consider improving its timing, path, layering, or trigger.
+Motion attracts attention; use choreography, rhythm, layering, and a clear focal point to compose that attention. Loops, bounces, springs, parallax, and simultaneous effects are creative tools. Assess their actual execution with readable content and usable controls. Evolve or replace existing effects when a stronger treatment improves the experience, including for aesthetic reasons. Explain any reduction in richness through a concrete improvement or user request; fewer effects are not inherently better.
 
 Prioritize by the user's goals and the quality of the resulting experience, including aesthetic and emotional value. Prototype choreography when seeing it in motion will help choose a direction. Discuss implementation cost when it affects an actual project constraint; do not assume that the cheapest or simplest effect is the best design.
 
@@ -26,7 +26,7 @@ Prioritize by the user's goals and the quality of the resulting experience, incl
 
 These review priorities apply without waiting for a separate animation request. Deliver the full, expressive motion treatment by default. Reduced motion is a preference-based alternative for users who request it through their operating system, browser, or an explicit product setting; users without that request receive the full experience. Existing motion conventions are a starting point that can evolve with the design.
 
-Make cause and effect easy to follow. A panel can emerge from its trigger, an item can visibly join the collection it belongs to, and a reordered row can retain its identity as its position changes. Preserve familiar direction, origin, and destination; use motion to answer where something went or what changed without demanding explanation. Avoid moving the action target away while the user is trying to activate it.
+Make cause and effect easy to follow. A panel can emerge from its trigger, an item can visibly join the collection it belongs to, and a reordered row can retain its identity as its position changes. Establish legible relationships between origin, path, and destination while exploring expressive trajectories, spatial transformations, and novel transitions. Keep action targets usable while people interact.
 
 Choreograph attention through the whole scene. Explore layered entrances, staggered reveals, shared-element transitions, flowing layout changes, and coordinated primary and secondary motion. Acknowledge input promptly and let people continue interacting while animation progresses. Give the sequence a deliberate visual rhythm and test it in the real page composition.
 
@@ -54,7 +54,7 @@ For a proposed handoff, pair a small before/during/after storyboard with values 
 
 Book: PDF pp. 63-67; interruption and recovery checks are workflow extensions.
 
-- Check both entrance and exit. Direction and origin should support the same spatial model. Abrupt disappearance deserves investigation when it breaks that model; an immediate exit can be appropriate for responsiveness or reduced motion.
+- Design and inspect both entrance and exit as parts of the full treatment. Their direction, origin, and destination should form an understandable spatial model. Keep dismissal responsive while the visual exit completes; when reduced motion is explicitly requested, inspect the corresponding alternative separately.
 - Try reversal, rapid repeated activation, navigation away, and dismissal where safe. Look for queued obsolete animations, snapping to a stale start state, invisible elements retaining focus or pointer interception, and UI state that diverges from the completed action. Do not delay logical completion or trap focus solely to finish an exit effect.
 - Retarget from the currently displayed position or measured size when reversing an in-flight effect; cancel obsolete effects and clean them up on navigation or unmount. Preserve the used control, reading position, URL state, and relevant selection. Reveal or focus an offscreen result when the task requires it; motion within a clipped or distant region is not sufficient feedback.
 - Inspect fast, slow, failed, and cancelled loading paths where available. Avoid empty-content flashes, stale content reappearing during exit, or brief loading indicators after content is ready. Preserve context while showing accurate progress and recovery.
