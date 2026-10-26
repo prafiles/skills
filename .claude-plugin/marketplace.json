@@ -1,0 +1,22 @@
+{
+  "name": "prafiles-skills",
+  "description": "Reusable agent skills by prafiles, installable in Claude Code and Codex.",
+  "owner": {
+    "name": "prafiles",
+    "url": "https://github.com/prafiles"
+  },
+  "plugins": [
+    {
+      "name": "design-review",
+      "source": "./",
+      "strict": false,
+      "description": "Review and elevate website and app interfaces with distinctive art direction, greater beauty, and expressive animation. Grounded in Design for Developers and Animation at Work.",
+      "category": "design",
+      "homepage": "https://github.com/prafiles/skills/tree/main/design-review",
+      "repository": "https://github.com/prafiles/skills",
+      "skills": [
+        "./design-review"
+      ]
+    }
+  ]
+}
